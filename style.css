@@ -1,0 +1,75 @@
+body,html{
+    background-image:url(https://www.themeparkprofessor.com/wp-content/uploads/2020/04/star-wars-backgrounds-36-1.jpg);
+}
+#loki{
+    position: absolute;
+    top:50px;
+    left:1400px;
+    height:900px;
+    width:500px;
+    animation: lokii 5.5s;
+    
+}
+#hulk{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:1000px;
+    animation:hulkk 5s;
+}
+@keyframes hulkk{
+    0%{
+        top:0px;
+        height:1000px;
+        left:0px;
+        transform: rotate(0deg);
+    }
+    25%{
+        top:0px;
+        height:1000px;
+        left:200px;
+        transform: rotate(0deg);
+        
+    }
+    60%{
+        top:0px;
+        height:1000px;
+        left:400px;
+        transform: rotate(0deg);
+    }
+    75%{
+        top:0px;
+        height:1000px;
+        left:600px;
+        transform: rotate(0deg);
+    }
+    83%{
+        top:0px;
+        height:1000px;
+        left:700px;
+        transform: rotate(-60deg);
+
+    }
+    100%{
+        top:-200px;
+        height:1200px;
+        left:800px;
+        transform: rotate(60deg);
+    }
+}
+@keyframes lokii{
+    0%{
+        opacity:1;
+        transform: rotate(0deg);
+    }
+    80%{
+        opacity:1;
+        transform: rotate(0deg);
+    }
+   
+    100%{
+        opacity:0.3;
+        transform: rotate(360deg);
+    }
+
+}
